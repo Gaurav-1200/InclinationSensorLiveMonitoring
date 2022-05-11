@@ -5,10 +5,10 @@
 #include <ArduinoJson.h>
 
 #define ARDUINOJSON_USE_DOUBLE 1
-#define FIREBASE_HOST "fir-fa33d-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "FW5aHnnOSQAMO7jWhslJU6MOXBioJSQMYjNqcwPf"
-#define WIFI_SSID "ONEPLUS"
-#define WIFI_PASSWORD "1234668899"
+#define FIREBASE_HOST "FIREBASE_HOST_URL"
+#define FIREBASE_AUTH "FIREBASE_SECRET_KEY"
+#define WIFI_SSID "WIFI_NAME"
+#define WIFI_PASSWORD "wIFI_PASSWORD"
 
 const int analogInPin = A0; 
 int sensorValue = 0; 
