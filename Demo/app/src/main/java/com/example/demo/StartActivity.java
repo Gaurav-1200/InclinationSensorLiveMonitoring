@@ -41,19 +41,19 @@ public class StartActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //Intent intent2=new Intent(StartActivity.this,ReportActivity.class);
                 //startActivity(intent2);
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1g6ISkhnSdKvjsHNnRDb-wrEdYFd0BU-u/view?usp=sharing")));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://drive.google.com/file/d/1T4_nxYYheU5WWfvge7yJ1dm6tEDwU2bx/view?usp=sharing")));
             }
         });
         github.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Saket210/News-India-Flutter-App")));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Gaurav-1200/InclinationSensorLiveMonitoring")));
             }
         });
         youtube.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=gwWKnnCMQ5c")));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=wX9YsH05SDs")));
             }
         });
     }
