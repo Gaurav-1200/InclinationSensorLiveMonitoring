@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Inclinometer</string>
+    <string name="voltage"><u>VOLTAGE(V)</u></string>
+    <string name="angle"><u>ANGLE(deg)</u></string>
+    <string name="strain"><u>STRAIN(µε)</u></string>
+    <string name="time"><u>TIME</u></string>
+</resources>
